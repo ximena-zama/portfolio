@@ -444,10 +444,15 @@ textarea {
 
 .project-details__showcase-img-cont {
   width: 100%;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem;
+  overflow: visible; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  width: 130%;
+  transform: translateX(-50%);
+  max-width: none;
+  position: relative;
+  left: 50%; }
 
 .project-details__content-main {
   width: 100%;
